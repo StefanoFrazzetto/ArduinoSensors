@@ -1,6 +1,6 @@
 # Arduino Sensors
 
-This is a collection of wrappers classes to use Arduino sensors with ease.
+This is a collection of wrapper classes to use Arduino sensors with ease.
 
 ## DHTSensor
 
