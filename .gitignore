@@ -1,0 +1,13 @@
+# Platformio
+.pioenvs
+.piolibdeps
+platformio.ini
+lib/readme.txt
+
+# CMake
+cmake-build-debug
+CMakeListsPrivate.txt
+CMakeLists.txt
+
+# CLion
+.idea
