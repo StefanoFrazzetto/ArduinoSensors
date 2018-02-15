@@ -6,6 +6,7 @@ DHTSensor *dht;
 
 void setup() {
     Serial.begin(9600);
+    m1 = new MoistureSensor(3);
     dht = new DHTSensor(2, DHT22);
 }
 

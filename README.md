@@ -25,7 +25,7 @@ Clone this repository using
 
 ```git clone https://github.com/StefanoFrazzetto/ArduinoSensors```
 
-then start coding using the ```example.ino``` file.
+then start coding using the provided project file ```src.ino```.
 
 
 ## Contributing

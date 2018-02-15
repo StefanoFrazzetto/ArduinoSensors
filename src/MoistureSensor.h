@@ -17,7 +17,8 @@ public :
     MoistureSensor(uint8_t PIN_NUMBER) : PIN_NUMBER(PIN_NUMBER) {}
 
     /**
-       Return the relative humidity.
+       Return the moisture percentage.
+       Range: 0-100
     */
     int getMoisture() {
         moisture = map(getSensorValue(), DRY_SENSOR_VALUE, WET_SENSOR_VALUE, 0, 100);
